@@ -1,0 +1,11 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Quote
+Bundle-SymbolicName: com.jng.tasks.quote
+Bundle-Version: 1.0.0.qualifier
+Bundle-Vendor: JNG
+Automatic-Module-Name: com.jng.tasks.quote
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Import-Package: com.jng.tasks.model
+Service-Component: OSGI-INF/com.jng.tasks.quote.QuoteService.xml
+Bundle-ActivationPolicy: lazy

@@ -1,0 +1,9 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Model
+Bundle-SymbolicName: com.jng.tasks.model
+Bundle-Version: 1.0.0.qualifier
+Bundle-Vendor: JNG
+Automatic-Module-Name: com.jng.tasks.model
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Export-Package: com.jng.tasks.model

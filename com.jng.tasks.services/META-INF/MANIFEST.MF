@@ -1,0 +1,12 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Services
+Bundle-SymbolicName: com.jng.tasks.services
+Bundle-Version: 1.0.0.qualifier
+Bundle-Vendor: JNG
+Automatic-Module-Name: com.jng.tasks.services
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Import-Package: com.jng.tasks.model,
+ org.osgi.service.component.annotations;version="1.3.0"
+Service-Component: OSGI-INF/com.jng.tasks.services.MyTodoServiceImpl.xml
+Bundle-ActivationPolicy: lazy
